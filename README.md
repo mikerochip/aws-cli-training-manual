@@ -8,7 +8,7 @@ Using AWS CLI 2.27.45
 
 * [Overview](#overview)
 * [🛑 Do Not Use CLI Commands for Configuration](#-do-not-use-cli-commands-for-configuration)
-* [`credentials` and `config`](#credentials-and-config)
+* [`credentials` and `config`](#the-credentials-and-config-files)
 * [Breakthroughs You’ll Need to Understand](#breakthroughs-youll-need-to-understand)
 * [Specifying a Profile](#specifying-a-profile)
 * [Using AWS SSO Profiles](#using-aws-sso-profiles)
@@ -35,11 +35,12 @@ Technically that works, BUT I highly recommend against that.
 
 That is like using a CLI or repl to edit code for a program you maintain. It is way easier to edit the files in a text editor.
 
-# `credentials` and `config`
+# The `credentials` and `config` files
 
-`credentials` is an older file, and was the only file originally
+There are 2 files that the AWS CLI uses for configuration
 
-`config` is newer, more explicit, and has support for more types of configuration
+* `credentials` is an older file, and was the only file originally
+* `config` is newer, more explicit, and has support for more types of configuration
 
 ## Examples
 
