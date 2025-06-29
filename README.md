@@ -8,7 +8,7 @@ Using AWS CLI 2.27.45
 
 * [Overview](#overview)
 * [🛑 Do Not Use CLI Commands for Configuration](#-do-not-use-cli-commands-for-configuration)
-* [`credentials` and `config`](#the-credentials-and-config-files)
+* [The `credentials` and `config` files](#the-credentials-and-config-files)
 * [Breakthroughs You’ll Need to Understand](#breakthroughs-youll-need-to-understand)
 * [Specifying a Profile](#specifying-a-profile)
 * [Using AWS SSO Profiles](#using-aws-sso-profiles)
