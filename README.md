@@ -12,7 +12,7 @@ Using AWS CLI 2.27.45
 * [Breakthroughs You’ll Need to Understand](#breakthroughs-youll-need-to-understand)
 * [Specifying a Profile](#specifying-a-profile)
 * [Using AWS SSO Profiles](#using-aws-sso-profiles)
-* [Official AWS Documentation Links](#official-aws-ocumentation-inks)
+* [Official AWS Documentation Links](#official-aws-documentation-links)
 
 # Overview
 
