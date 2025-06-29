@@ -4,6 +4,16 @@
 Jun 6, 2025\
 Using AWS CLI 2.27.45
 
+# Table of Contents
+
+* [Overview](#overview)
+* [🛑 Do Not Use CLI Commands for Configuration](#-do-not-use-cli-commands-for-configuration)
+* [`credentials` and `config`](#credentials-and-config)
+* [Breakthroughs You’ll Need to Understand](#breakthroughs-youll-need-to-understand)
+* [Specifying a Profile](#specifying-a-profile)
+* [Using AWS SSO Profiles](#using-aws-sso-profiles)
+* [Official AWS Documentation Links](#official-aws-ocumentation-inks)
+
 # Overview
 
 Understanding the AWS CLI is critical to using tools like terraform, kubectl, and anything else that uses AWS SDKs. The SDKs and the AWS CLI all share a config system.
@@ -25,7 +35,7 @@ Technically that works, BUT I highly recommend against that.
 
 That is like using a CLI or repl to edit code for a program you maintain. It is way easier to edit the files in a text editor.
 
-# There are 2 files: `credentials` and `config`
+# `credentials` and `config`
 
 `credentials` is an older file, and was the only file originally
 
